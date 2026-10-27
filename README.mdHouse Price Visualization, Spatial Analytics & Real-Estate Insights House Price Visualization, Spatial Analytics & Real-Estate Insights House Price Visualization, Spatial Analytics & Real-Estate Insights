@@ -1,0 +1,98 @@
+# House Price Visualization, Spatial Analytics & Real-Estate Insights
+
+## Project Overview
+
+This project analyzes the King County House Sales Dataset using Python. It focuses on visualizing house prices, exploring geographical patterns, and identifying important factors that influence real-estate prices.
+
+## Objectives
+
+- Understand and analyze house sales data.
+- Visualize house price distributions.
+- Explore the relationship between living area and house prices.
+- Analyze house prices based on the number of bedrooms.
+- Perform spatial analysis using latitude and longitude.
+- Identify correlations between property features and sale prices.
+- Generate useful real-estate insights.
+
+## Dataset
+
+**Dataset Name:** King County House Sales Dataset
+
+**File Name:** `kc_house_data.csv`
+
+The dataset contains house sale records from King County, Washington, USA.
+
+Important columns include:
+- `price` — Sale price of the house
+- `bedrooms` — Number of bedrooms
+- `bathrooms` — Number of bathrooms
+- `sqft_living` — Interior living area in square feet
+- `sqft_lot` — Lot area in square feet
+- `yr_built` — Year the house was built
+- `zipcode` — Property ZIP code
+- `lat` — Latitude
+- `long` — Longitude
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook / Google Colab
+
+## Project Workflow
+
+1. Data loading and understanding
+2. Data cleaning and preprocessing
+3. Feature engineering
+4. House price visualization
+5. Spatial analytics
+6. Correlation analysis
+7. Real-estate insights
+8. Exporting the cleaned dataset
+
+## Visualizations
+
+- House Price Distribution
+- Living Area vs House Price
+- House Price by Number of Bedrooms
+- Geographic Distribution of House Prices
+- Correlation Heatmap
+- Average House Price by ZIP Code
+
+## Installation
+
+Install the required Python libraries:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+## How to Run
+
+1. Download `kc_house_data.csv`.
+2. Place the dataset in the same folder as the Python script or notebook.
+3. Install the required libraries.
+4. Run the Python code.
+5. View the generated visualizations and real-estate insights.
+
+## Expected Outcomes
+
+- Understand house price patterns.
+- Identify relationships between house size and sale price.
+- Explore geographical differences in house prices.
+- Identify important numerical correlations.
+- Produce a cleaned dataset for further analysis.
+
+## Conclusion
+
+This project demonstrates how data visualization and spatial analytics can help explore real-estate trends and understand the factors associated with house prices.
+
+## Author
+
+BCA Student
+
+## Disclaimer
+
+This project is intended for educational and data-analysis purposes. The findings describe patterns in historical sales data and should not be treated as professional property valuations.
